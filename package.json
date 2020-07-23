@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "This is Tianhui Li's repository for projects in the book Pro MERN Stack (2nd Ed) by Vasan Subramanian.   * The README.md is an entry for each chapter. It is in descending order. It will include what I learned each charpter and the challages and problems I encountered. A screenshot of the current state of my work will also be covered.   * A tag will be added to represent each completed chapter, including codes and screenshots.",
   "main": "index.js",
+  "engines": {
+    "node": "10.x",
+    "npm": "6.x"
+  },
   "scripts": {
     "start": "nodemon -e js,graphql -w . -w .env server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
